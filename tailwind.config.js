@@ -3,7 +3,14 @@ export default {
   content: ["./src/**/*.{ts,tsx}"],
   mode: "jit",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        tertiary: "#151030",
+      },
+      screens: {
+        xs: "300px",
+      },
+    },
   },
   plugins: [],
 };
