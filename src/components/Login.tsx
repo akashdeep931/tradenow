@@ -31,6 +31,7 @@ const Login = () => {
           placeholder="Enter password here."
           required
           className={`${styles.formInput} mb-7`}
+          autoComplete="on"
         />
         <button type="submit" className={styles.formButton}>
           Log In
@@ -39,7 +40,9 @@ const Login = () => {
           to="/register"
           className="text-[#B4B6C4] underline hover:text-blue-400 text-center"
         >
-          <p>Create Account</p>
+          <p className="text-[14px] xs:text-[16px] md:text-[18px]">
+            New here? Create Account
+          </p>
         </Link>
       </form>
     </section>
