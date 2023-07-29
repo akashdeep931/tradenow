@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import tradingVideo from "../../public/tradingVideo.mp4";
+import tradingVideo from "/tradingVideo.mp4";
 
 const FormWrapper = (Component: () => ReactElement): (() => ReactElement) => {
   return function () {

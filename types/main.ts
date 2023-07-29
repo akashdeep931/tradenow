@@ -5,4 +5,9 @@ interface UserBody {
   password: string;
 }
 
-export type { UserBody };
+type LoginData = {
+  username: string;
+  password: string;
+};
+
+export type { UserBody, LoginData };
