@@ -2,7 +2,7 @@ import axios from "axios";
 import { LoginData, UserBody } from "../types/main";
 
 const myApi = axios.create({
-  baseURL: "http://localhost:1050/",
+  baseURL: "https://tradenow-authentication-production.up.railway.app/",
   withCredentials: true,
   headers: { "Content-Type": "application/json" },
 });
