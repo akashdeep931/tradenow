@@ -14,6 +14,7 @@ const FormWrapper = (Component: () => ReactElement): (() => ReactElement) => {
           autoPlay
           loop
           muted
+          playsInline
           className="w-full h-full object-cover"
         ></video>
         <section className={styles.heroSection}>
