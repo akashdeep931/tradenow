@@ -8,7 +8,7 @@ const FormWrapper = (Component: () => ReactElement): (() => ReactElement) => {
   return function () {
     return (
       <main className="w-full h-screen">
-        <div className="absolute h-full w-full top-0 left-0 bg-[#00000080]"></div>
+        <div className="absolute h-screen w-full top-0 left-0 bg-[#00000080]"></div>
         <video
           src={tradingVideo}
           autoPlay
